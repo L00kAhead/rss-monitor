@@ -1,4 +1,4 @@
-# RSS Monitor 
+# RSS Monitor
 
 Сервис **RSS Monitor** — это легковесное веб-приложение для отслеживания ключевых слов и тем в различных RSS- и Atom-лентах. Построенное на **FastAPI** с простым фронтендом на **vanilla JavaScript**, оно предоставляет удобную панель для мониторинга и управления актуальным контентом в режиме реального времени. Система автоматически загружает и фильтрует элементы ленты на основе заданных пользователем ключевых слов, помогая оставаться в курсе важных событий без лишних усилий.
 
@@ -31,7 +31,7 @@
 
 2. **Создайте и активируйте виртуальное окружение, затем установите зависимости:**
 
-    ### Linux/macOS
+   ### Linux/macOS
 
     ```bash
     python3 -m venv venv
@@ -58,12 +58,12 @@
     ```bash
     http://127.0.0.1:8000
     ```
+
 ## Доступные URL
 
-- **Веб-интерфейс:** [http://localhost:8000](http://localhost:8000)
-- **Документация API (Swagger UI):** [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Альтернативная документация API (ReDoc):** [http://localhost:8000/redoc](http://localhost:8000/redoc)
-
+* **Веб-интерфейс:** [http://localhost:8000](http://localhost:8000)
+* **Документация API (Swagger UI):** [http://localhost:8000/docs](http://localhost:8000/docs)
+* **Альтернативная документация API (ReDoc):** [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ## 🛠 Функциональность
 
@@ -156,18 +156,40 @@
 
 ## Скриншоты того, как взаимодействовать с приложением
 
-**Swagger Документация**<br><img src="screenshots/swagger-docs.png" alt="swagger-docs">
-**Форма Ключевого Слова**<br><img src="screenshots/keyword-form.png" alt="keyword-form"> 
-**Монитор RSS**<br><img src="screenshots/rss-monitor.png" alt="rss-monitor">
-**Результаты**<br><img src="screenshots/results.png" alt="results">
-**Результаты Фильтрации**<br><img src="screenshots/filter-results.png" alt="filter-results">
-**Файл Лог**<br><img src="screenshots/log-file.png" alt="log-file">
-**Результаты Ключевых Слов**<br><img src="screenshots/keywords-res.png" alt="keywords-res"> 
-**Данные в базе данных SQLite3**<br><img src="screenshots/database.png" alt="database">
+### Swagger Документация
+
+<br><img src="screenshots/swagger-docs.png" alt="swagger-docs">
+
+### Форма Ключевого Слова
+
+<br><img src="screenshots/keyword-form.png" alt="keyword-form">
+
+### Монитор RSS
+
+<br><img src="screenshots/rss-monitor.png" alt="rss-monitor">
+
+### Результаты
+
+<br><img src="screenshots/results.png" alt="results">
+
+### Результаты Фильтрации
+
+<br><img src="screenshots/filter-results.png" alt="filter-results">
+
+### Файл Лог
+
+<br><img src="screenshots/log-file.png" alt="log-file">
+
+### Результаты Ключевых Слов
+
+<br><img src="screenshots/keywords-res.png" alt="keywords-res">
+
+### Данные в базе данных SQLite3
+<br><img src="screenshots/database.png" alt="database">
 
 ## Лицензия
 
-Этот проект лицензируется по лицензии MIT — см. файл [LICENSE](LICENSE) для подробностей.
+Этот проект лицензируется по лицензии MIT — см. файл [LICENSE](./LICENSE) для подробностей.
 
 ## Обратная связь и вклад
 
