@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Monitor Dashboard</title>
+    <link rel="stylesheet" href="/frontend/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-content">
+            <i class="fas fa-rss-square app-icon"></i>
+            <h1>RSS Monitor Dashboard</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="card-section">
+            <h2 class="section-title">Manage Keywords</h2>
+            <form id="keywordForm" class="input-form">
+                <input type="text" id="keywordInput" placeholder="Add new keyword (e.g., AI, Trump)" required>
+                <button type="submit" class="btn btn-primary">Add Keyword</button>
+            </form>
+            <div id="keywordsList" class="list-container">
+                </div>
+        </section>
+
+        <section class="card-section">
+            <h2 class="section-title">Manage RSS Feeds</h2>
+            <form id="rssFeedForm" class="input-form">
+                <input type="url" id="rssUrlInput" placeholder="RSS Feed URL (e.g., https://example.com/feed.xml)" required>
+                <input type="text" id="rssNameInput" placeholder="Feed Name (optional)">
+                <input type="number" id="rssIntervalInput" min="1" value="5" placeholder="Fetch Interval (minutes, default 5)">
+                <button type="submit" class="btn btn-primary">Add RSS Feed</button>
+            </form>
+            <div id="rssFeedsList" class="list-container">
+                </div>
+        </section>
+
+        <section class="card-section">
+            <h2 class="section-title">Matched Results</h2>
+            <div class="results-filter-bar">
+                <div class="filter-input-group">
+                    <input type="text" id="filterKeywordInput" placeholder="Type to filter keywords..." list="availableKeywords">
+                    <datalist id="availableKeywords"></datalist>
+                    <button id="addFilterTagBtn" class="btn btn-primary">Add Filter</button>
+                </div>
+                <div id="activeFilterTags" class="active-filter-tags">
+                    </div>
+                <button id="clearAllFiltersBtn" class="btn btn-outline">Clear All Filters</button>
+            </div>
+            <div id="resultsGrid" class="results-grid">
+                </div>
+            <div id="pagination" class="pagination">
+                </div>
+        </section>
+    </div>
+
+    <script src="/frontend/script.js"></script>
+</body>
+</html>
