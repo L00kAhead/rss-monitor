@@ -193,4 +193,4 @@
 
 ## Обратная связь и вклад
 
-Если у вас есть предложения, обнаружены ошибки или вы хотите помочь в развитии проекта, пожалуйста, создайте [issue]([https://github.com/YOUR_GITHUB_REPO_URL/issues](https://github.com/L00kAhead/rss-monitor/issues)) или [pull request](https://github.com/L00kAhead/rss-monitor/pulls) в репозитории на GitHub.
+Если у вас есть предложения, обнаружены ошибки или вы хотите помочь в развитии проекта, пожалуйста, создайте [issue](https://github.com/L00kAhead/rss-monitor/issues) или [pull request](https://github.com/L00kAhead/rss-monitor/pulls) в репозитории на GitHub.
