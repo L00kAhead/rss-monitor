@@ -1,0 +1,676 @@
+2025-05-26 13:44:58,683 - backend.monitor - INFO - Starting RSS monitor service...
+2025-05-26 13:44:58,684 - backend.database - INFO - Database tables checked/created successfully.
+2025-05-26 13:44:58,684 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 13:44:58,684 - backend.monitor - INFO - No active RSS feeds to schedule.
+2025-05-26 13:44:58,684 - backend.main - INFO - FastAPI application startup completed.
+2025-05-26 13:45:56,876 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 13:45:56,877 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 13:45:56,878 - backend.monitor - INFO - Scheduler started.
+2025-05-26 13:45:56,878 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 13:45:58,598 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 11 new entries.
+2025-05-26 13:46:51,190 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 13:46:51,192 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 13:46:51,192 - backend.monitor - INFO - Scheduled feed 'New York Times' (ID: 2) to run every 5 minutes.
+2025-05-26 13:46:51,193 - backend.monitor - INFO - Scheduler already running, jobs updated.
+2025-05-26 13:46:51,195 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 13:46:51,195 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 13:46:52,352 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 8 new entries.
+2025-05-26 13:46:52,355 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 13:51:51,264 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 13:51:51,265 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 13:51:52,526 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 13:51:53,747 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 13:55:06,631 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 13:55:06,633 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 13:55:06,633 - backend.monitor - INFO - Scheduled feed 'New York Times' (ID: 2) to run every 5 minutes.
+2025-05-26 13:55:06,634 - backend.monitor - INFO - Scheduled feed 'Techcrunch' (ID: 3) to run every 5 minutes.
+2025-05-26 13:55:06,634 - backend.monitor - INFO - Scheduler already running, jobs updated.
+2025-05-26 13:55:06,636 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 13:55:06,638 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 13:55:06,639 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 13:55:07,349 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 2 new entries.
+2025-05-26 13:55:07,912 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 13:55:08,600 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:00:06,641 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:00:06,642 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:00:06,642 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:00:07,339 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:00:07,379 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:00:08,468 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:00:17,110 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 14:00:17,113 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 14:00:17,113 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:00:17,113 - backend.monitor - INFO - Scheduled feed 'New York Times' (ID: 2) to run every 5 minutes.
+2025-05-26 14:00:17,114 - backend.monitor - INFO - Scheduled feed 'Techcrunch' (ID: 3) to run every 5 minutes.
+2025-05-26 14:00:17,115 - backend.monitor - INFO - Scheduled feed 'CNET' (ID: 4) to run every 5 minutes.
+2025-05-26 14:00:17,115 - backend.monitor - INFO - Scheduler already running, jobs updated.
+2025-05-26 14:00:17,118 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:00:17,118 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:00:17,119 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:00:17,744 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:00:17,971 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 1 new entries.
+2025-05-26 14:00:18,401 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:00:18,402 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:05:17,121 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:05:17,121 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:05:17,122 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:05:17,123 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:05:17,734 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:05:17,870 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:05:17,966 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:05:19,132 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:10:17,113 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:10:17,117 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:10:17,119 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:10:17,120 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:10:17,962 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:10:17,966 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:10:18,018 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:10:18,586 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:11:03,255 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 14:11:03,257 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 14:11:03,258 - backend.monitor - INFO - Scheduled feed 'New York Times' (ID: 2) to run every 5 minutes.
+2025-05-26 14:11:03,258 - backend.monitor - INFO - Scheduled feed 'Techcrunch' (ID: 3) to run every 5 minutes.
+2025-05-26 14:11:03,259 - backend.monitor - INFO - Scheduled feed 'CNET' (ID: 4) to run every 5 minutes.
+2025-05-26 14:11:03,259 - backend.monitor - INFO - Scheduler already running, jobs updated.
+2025-05-26 14:11:03,261 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:11:03,261 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:11:03,262 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:11:03,263 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:11:04,083 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:11:04,086 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:11:04,158 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:11:04,699 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:13:11,558 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 14:13:11,560 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 14:13:11,561 - backend.monitor - INFO - Scheduled feed 'New York Times' (ID: 2) to run every 5 minutes.
+2025-05-26 14:13:11,561 - backend.monitor - INFO - Scheduled feed 'Techcrunch' (ID: 3) to run every 5 minutes.
+2025-05-26 14:13:11,561 - backend.monitor - INFO - Scheduled feed 'CNET' (ID: 4) to run every 5 minutes.
+2025-05-26 14:13:11,562 - backend.monitor - INFO - Scheduler already running, jobs updated.
+2025-05-26 14:13:11,562 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:13:11,563 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:13:11,563 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:13:11,564 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:13:12,220 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 2 new entries.
+2025-05-26 14:13:12,307 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:13:12,446 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:13:13,394 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 1 new entries.
+2025-05-26 14:18:11,569 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:18:11,570 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:18:11,571 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:18:11,571 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:18:12,301 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:18:12,410 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:18:12,413 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:18:13,521 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:23:11,562 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:23:11,564 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:23:11,564 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:23:11,568 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:23:12,314 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:23:12,646 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:23:12,990 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:23:12,995 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:28:11,563 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:28:11,564 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:28:11,564 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:28:11,564 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:28:12,160 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:28:12,390 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:28:12,854 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:28:13,206 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:33:11,563 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:33:11,564 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:33:11,564 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:33:11,564 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:33:12,311 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:33:12,315 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:33:12,371 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:33:13,339 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:38:11,565 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:38:11,566 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:38:11,566 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:38:11,567 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:38:12,170 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:38:12,303 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:38:12,378 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:38:13,019 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:43:11,569 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:43:11,570 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:43:11,571 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:43:11,572 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:43:12,325 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:43:12,329 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:43:12,366 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:43:13,422 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:43:43,475 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 14:43:43,486 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 14:43:43,486 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:43:43,487 - backend.monitor - INFO - Scheduled feed 'New York Times' (ID: 2) to run every 5 minutes.
+2025-05-26 14:43:43,488 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:43:43,488 - backend.monitor - INFO - Scheduled feed 'Techcrunch' (ID: 3) to run every 5 minutes.
+2025-05-26 14:43:43,489 - backend.monitor - INFO - Scheduled feed 'CNET' (ID: 4) to run every 5 minutes.
+2025-05-26 14:43:43,489 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:43:43,491 - backend.monitor - INFO - Scheduled feed 'Unit AI RSS' (ID: 6) to run every 5 minutes.
+2025-05-26 14:43:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:43:43,491 - backend.monitor - INFO - Scheduler already running, jobs updated.
+2025-05-26 14:43:43,499 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 14:43:44,190 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:43:44,328 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:43:44,409 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:43:45,282 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:43:45,680 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 6 new entries.
+2025-05-26 14:48:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:48:43,491 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:48:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:48:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:48:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 14:48:44,370 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:48:44,374 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:48:44,427 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:48:45,051 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:48:45,596 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 14:53:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:53:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:53:43,491 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:53:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:53:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 14:53:44,213 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:53:44,355 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:53:44,439 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:53:45,426 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 14:53:45,626 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:58:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 14:58:43,490 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 14:58:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 14:58:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 14:58:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 14:58:44,296 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 14:58:44,309 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 14:58:44,924 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 14:58:44,932 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 14:58:45,616 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:03:43,486 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:03:43,487 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:03:43,506 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:03:43,507 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:03:43,509 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:03:44,179 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:03:44,383 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:03:44,385 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:03:45,491 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:03:45,493 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:08:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:08:43,493 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:08:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:08:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:08:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:08:44,438 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:08:44,440 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:08:44,900 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:08:45,314 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:08:45,471 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:13:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:13:43,492 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:13:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:13:43,495 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:13:43,496 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:13:44,211 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:13:44,516 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:13:44,894 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:13:45,216 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:13:45,422 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:18:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:18:44,338 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:18:44,437 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:18:44,949 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:18:44,950 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:18:45,600 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:23:43,500 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:23:43,501 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:23:43,501 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:23:43,501 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:23:43,501 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:23:44,408 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:23:44,449 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:23:44,892 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:23:45,092 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:23:45,574 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:28:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:28:43,492 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:28:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:28:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:28:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:28:44,202 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:28:44,342 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:28:44,407 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:28:44,861 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:28:45,581 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:33:43,496 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:33:43,496 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:33:43,496 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:33:43,497 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:33:43,497 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:33:44,302 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:33:44,403 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:33:44,842 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:33:45,154 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:33:45,550 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:38:43,492 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:38:44,199 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:38:44,331 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:38:44,404 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:38:44,977 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:38:45,532 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:43:43,488 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:43:43,488 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:43:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:43:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:43:43,504 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:43:44,306 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:43:44,366 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:43:44,416 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:43:45,772 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:43:46,169 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:48:43,488 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:48:43,488 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:48:43,489 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:48:43,489 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:48:43,509 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:48:44,337 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:48:44,417 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:48:44,874 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:48:45,626 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:48:45,798 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:53:43,522 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:53:43,523 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:53:43,523 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:53:43,523 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:53:43,523 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:53:44,257 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:53:44,392 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:53:44,476 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:53:45,829 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:53:46,169 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 15:58:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 15:58:43,493 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 15:58:43,494 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 15:58:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 15:58:43,497 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 15:58:44,317 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 15:58:44,421 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 15:58:44,882 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 15:58:45,943 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 15:58:45,951 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:03:44,199 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:03:44,424 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:03:44,874 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:03:45,718 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:03:45,724 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:08:43,552 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:08:43,552 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:08:43,553 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:08:43,553 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:08:43,553 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:08:44,397 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:08:44,402 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:08:44,497 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:08:45,879 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:08:46,020 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:13:43,489 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:13:43,489 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:13:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:13:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:13:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:13:44,361 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:13:44,499 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:13:44,997 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:13:44,998 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:13:46,020 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:18:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:18:43,500 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:18:43,501 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:18:43,501 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:18:43,501 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:18:44,246 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:18:44,343 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:18:44,576 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:18:45,646 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:18:45,839 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:23:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:23:43,490 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:23:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:23:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:23:43,512 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:23:44,389 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:23:44,471 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:23:45,027 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:23:45,032 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:23:45,734 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:28:43,505 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:28:43,505 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:28:43,505 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:28:43,505 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:28:43,505 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:28:44,232 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:28:44,452 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:28:45,029 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:28:45,036 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:28:45,510 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:33:43,496 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:33:43,497 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:33:43,498 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:33:43,498 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:33:43,500 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:33:44,362 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:33:44,457 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:33:44,962 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:33:45,155 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:33:45,650 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:38:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:38:43,492 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:38:44,218 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:38:44,469 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:38:44,474 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:38:44,975 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 1 new entries.
+2025-05-26 16:38:45,577 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:43:43,485 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:43:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:43:43,498 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:43:43,498 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:43:43,498 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:43:44,382 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:43:44,385 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:43:44,426 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:43:45,459 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:43:45,637 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:48:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:48:43,492 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:48:43,492 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:48:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:48:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:48:44,245 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:48:44,470 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:48:45,054 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:48:45,062 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 16:48:45,508 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:53:43,488 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:53:43,488 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:53:43,489 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:53:43,502 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:53:43,502 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:53:44,287 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:53:44,629 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:53:44,844 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:53:45,753 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:53:45,902 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 1 new entries.
+2025-05-26 16:58:43,496 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 16:58:43,496 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 16:58:43,496 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 16:58:43,496 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 16:58:43,496 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 16:58:44,189 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 16:58:44,369 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 16:58:44,401 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 16:58:45,805 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 16:58:45,813 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:03:43,493 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:03:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:03:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:03:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:03:44,309 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:03:44,463 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:03:44,867 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:03:45,749 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:03:46,241 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:08:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:08:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:08:43,490 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:08:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:08:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:08:44,214 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:08:44,451 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:08:44,889 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 7 new entries.
+2025-05-26 17:08:45,681 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:08:45,683 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:13:43,486 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:13:43,487 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:13:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:13:43,495 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:13:43,495 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:13:44,413 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:13:44,419 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:13:44,518 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:13:45,938 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:13:45,944 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:18:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:18:43,493 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:18:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:18:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:18:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:18:44,333 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:18:44,416 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:18:44,417 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:18:45,838 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:18:46,045 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:23:43,489 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:23:43,490 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:23:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:23:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:23:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:23:44,253 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:23:44,430 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:23:44,433 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:23:45,641 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:23:45,645 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:28:43,486 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:28:43,487 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:28:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:28:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:28:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:28:44,319 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:28:44,385 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:28:44,551 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:28:45,666 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:28:45,745 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:33:43,488 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:33:43,488 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:33:43,489 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:33:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:33:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:33:44,217 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:33:44,285 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:33:44,429 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:33:45,709 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:33:45,715 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:38:43,489 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:38:43,490 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:38:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:38:43,490 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:38:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:38:44,408 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:38:44,410 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:38:44,494 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:38:45,526 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:38:45,766 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:43:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:43:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:43:43,491 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:43:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:43:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:43:44,176 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:43:44,375 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:43:44,387 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:43:45,759 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:43:46,383 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:48:43,487 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:48:43,487 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:48:43,489 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:48:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:48:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:48:44,333 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:48:44,361 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:48:44,410 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:48:45,672 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:48:45,815 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:53:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:53:43,495 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:53:43,495 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:53:43,495 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:53:43,495 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:53:44,344 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:53:44,347 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:53:44,421 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:53:45,791 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:53:46,301 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 17:58:43,558 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 17:58:43,559 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 17:58:43,559 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 17:58:43,559 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 17:58:43,559 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 17:58:44,272 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 17:58:44,431 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 17:58:44,473 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 17:58:45,711 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 17:58:46,618 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:03:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:03:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:03:44,368 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:03:44,371 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:03:44,451 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:03:45,834 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:03:45,945 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:08:43,490 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:08:43,491 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:08:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:08:43,493 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:08:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:08:44,207 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:08:44,315 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:08:44,343 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:08:45,935 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:08:45,987 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:13:43,517 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:13:43,517 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:13:43,517 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:13:43,517 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:13:43,517 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:13:44,410 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:13:44,413 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 1 new entries.
+2025-05-26 18:13:44,509 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:13:45,845 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:13:46,132 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:18:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:18:44,243 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:18:44,557 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 1 new entries.
+2025-05-26 18:18:44,893 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:18:45,572 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:18:45,668 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:23:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:23:43,494 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:23:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:23:43,494 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:23:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:23:44,359 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:23:44,443 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:23:44,938 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:23:45,731 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:23:45,930 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:28:43,513 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:28:43,515 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:28:43,515 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:28:43,517 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:28:43,522 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:28:44,234 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:28:44,510 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:28:44,950 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:28:45,765 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:28:45,771 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:33:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:33:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:33:43,492 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:33:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:33:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:33:44,349 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:33:44,739 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:33:44,899 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:33:45,763 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:33:46,130 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:38:43,493 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:38:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:38:43,494 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:38:44,185 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:38:44,292 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:38:44,437 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:38:45,653 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:38:45,713 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:43:43,500 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:43:43,500 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:43:43,500 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:43:43,500 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:43:43,500 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:43:44,401 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:43:44,404 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:43:44,623 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:43:45,871 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:43:49,754 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:48:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 18:48:43,491 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 18:48:43,491 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 18:48:43,492 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 18:48:43,492 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 18:48:44,210 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 18:48:44,369 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 18:48:44,442 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 18:48:45,696 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 18:48:45,702 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 18:53:00,693 - backend.monitor - INFO - Scheduler stopped.
+2025-05-26 18:53:00,694 - backend.main - INFO - FastAPI application shutdown completed.
+2025-05-26 19:00:51,893 - backend.monitor - INFO - Starting RSS monitor service...
+2025-05-26 19:00:51,895 - backend.database - INFO - Database tables checked/created successfully.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Cleared existing scheduler jobs.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Scheduled feed 'Russian Today' (ID: 1) to run every 5 minutes.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Scheduled feed 'New York Times' (ID: 2) to run every 5 minutes.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Scheduled feed 'Techcrunch' (ID: 3) to run every 5 minutes.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Scheduled feed 'CNET' (ID: 4) to run every 5 minutes.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Scheduled feed 'Unit AI RSS' (ID: 6) to run every 5 minutes.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Scheduler started.
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Fetching RSS feed: https://www.rt.com/rss-feed/
+2025-05-26 19:00:51,895 - backend.monitor - INFO - Fetching RSS feed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2025-05-26 19:00:51,895 - backend.main - INFO - FastAPI application startup completed.
+2025-05-26 19:00:51,896 - backend.monitor - INFO - Fetching RSS feed: https://techcrunch.com/feed/
+2025-05-26 19:00:51,896 - backend.monitor - INFO - Fetching RSS feed: https://www.cnet.com/rss/all/
+2025-05-26 19:00:51,896 - backend.monitor - INFO - Fetching RSS feed: https://www.unite.ai/feed/
+2025-05-26 19:00:52,765 - backend.monitor - INFO - Finished processing feed https://techcrunch.com/feed/. Added 0 new entries.
+2025-05-26 19:00:52,768 - backend.monitor - INFO - Finished processing feed https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml. Added 0 new entries.
+2025-05-26 19:00:52,828 - backend.monitor - INFO - Finished processing feed https://www.cnet.com/rss/all/. Added 0 new entries.
+2025-05-26 19:00:54,195 - backend.monitor - INFO - Finished processing feed https://www.unite.ai/feed/. Added 0 new entries.
+2025-05-26 19:00:54,202 - backend.monitor - INFO - Finished processing feed https://www.rt.com/rss-feed/. Added 0 new entries.
+2025-05-26 19:01:25,409 - backend.monitor - INFO - Scheduler stopped.
+2025-05-26 19:01:25,411 - backend.main - INFO - FastAPI application shutdown completed.
